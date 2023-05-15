@@ -37,7 +37,8 @@ const expenses = [
 
 
     return (
-      <Card className="expense">
+      <div>
+        <Card className="expense">
         <ExpensesFilter  seleted={filteredYear} onChangeFilter={filterChangeHandler}></ExpensesFilter>
         <ExpenseItem
           title={expenses[0].title}
@@ -61,6 +62,7 @@ const expenses = [
         ></ExpenseItem>
         <p>This is also visible!</p>
       </Card>
+      </div>
     );
   }
 
