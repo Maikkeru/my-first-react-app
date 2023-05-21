@@ -63,7 +63,7 @@ function ExpenseForm (props) {
         setEnteredDate('')
     };
   return ( 
-    <div>
+    
         <form onSubmit={submitHandler}>
         <div className='new-expense__controls'>
             <div className='new-expense__control'>
@@ -83,7 +83,7 @@ function ExpenseForm (props) {
             <button type="submit">Add Expense</button> 
         </div>
     </form>
-    </div>
+    
   );
 };
 
